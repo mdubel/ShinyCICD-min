@@ -2,6 +2,7 @@
 # ShinyCICD
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.com/mdubel/ShinyCICD-min.svg?branch=master)](https://travis-ci.com/mdubel/ShinyCICD-min)
 <!-- badges: end -->
 
 The goal of ShinyCICD is to provide a simple example of packaged Shiny app to showcase CI/CD pipelines.
@@ -11,7 +12,7 @@ The goal of ShinyCICD is to provide a simple example of packaged Shiny app to sh
 You can install ShinyCICD from GitHub with
 
 ``` r
-remotes::install_github("miraisolutions/ShinyCICD-min")
+remotes::install_github("mdubel/ShinyCICD-min")
 ```
 
 The corresponding Shiny app can be then served launched by simply calling the `run_app()` exported function:
